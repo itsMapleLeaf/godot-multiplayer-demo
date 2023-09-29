@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bgog4m5wrm2ut"]
+
+[ext_resource type="Script" path="res://gameplay.gd" id="1_eawpa"]
+[ext_resource type="Script" path="res://player_manager.gd" id="2_ynvni"]
+
+[node name="Gameplay" type="Node"]
+script = ExtResource("1_eawpa")
+
+[node name="PlayerManager" type="Node" parent="."]
+script = ExtResource("2_ynvni")
